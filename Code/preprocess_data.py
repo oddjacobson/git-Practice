@@ -6,7 +6,7 @@ def get_kinematics(x, y):
 	dy = y - y.shift()
 	d2x = dx - dx.shift()
 	d2y = dy - dy.shift()
-x <- y
+
 	speed = np.sqrt(dx**2 + dy**2)
 	acceleration = np.sqrt(d2x**2 + d2y**2)
 
